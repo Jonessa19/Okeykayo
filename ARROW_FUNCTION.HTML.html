@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+    <input type="button" value="Click Me" id="btnjonessa">
+</body>
+<script>
+    const btnnessa= document.querySelector("#btnjonessa");
+
+    let Jonessa= () => {
+        const name = "Jonessa Cantiga";
+        const location = "278 MANGGAHAN-LAWIN, BINAKAYAN KAWIT CAVITE";
+        const section = "COOPER";
+        
+        console.log(`My name is ${name}`);
+        console.log(`From ${location}`);
+        console.log(`My section is ${section}`);
+    }
+
+    btnnessa.addEventListener('click', Jonessa);
+</script>
+</html>
